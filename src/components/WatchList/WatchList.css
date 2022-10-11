@@ -1,0 +1,39 @@
+.watchlist {
+    background: #2f3240;
+    margin: 1px;
+    height: 45%;
+}
+
+.watchlist table {
+    padding-top: 5px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.watchlist table th {
+    font-weight: 400;
+    line-height: 25px;
+    padding-right: 3px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.watchlist table th, #home .watchlist table tr:nth-child(2n) {
+    background: hsla(0,0%,47.1%,.15);
+}
+
+.watchlist table td {
+    line-height: 25px;
+    padding-right: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.watchlist table td:last-child {
+    color: #fff;
+}
+
+.cell-hightlight {
+    color: #0f0;
+}

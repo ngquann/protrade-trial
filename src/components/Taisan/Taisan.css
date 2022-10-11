@@ -1,0 +1,38 @@
+.assets {
+    background: #2f3240;
+    flex: 1 1;
+    margin: 1px;
+    position: relative;
+    overflow: auto;
+}
+
+.assets .header {
+    padding: 0 5px;
+    margin: 0;
+    line-height: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid hsla(0,0%,47.1%,.15);
+    background: hsla(0,0%,47.1%,.15);
+    color: #f7941d;
+    font-size: 1.4rem;
+}
+
+.assets table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.assets table tr {
+    border-bottom: 1px solid hsla(0,0%,47.1%,.15);
+}
+
+.assets table td.value {
+    text-align: right;
+}
+
+.assets table td {
+    line-height: 30px;
+    padding: 0 3px;
+    color: #fff;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,83 @@
+#col-1 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history {
+    background: #2f3240;
+    margin: 1px;
+    flex: 1 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.history::-webkit-scrollbar {
+    width: 5px;
+}
+
+.history::-webkit-scrollbar-thumb {
+    background: #393939;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    border-radius: 3px;
+
+}
+
+.history .derivative-info {
+    height: 42px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+}
+
+.history .derivative-info table {
+    width: 100%;
+}
+
+.history .derivative-info table tr {
+    height: 42px;
+}
+
+.history .derivative-info table td {
+    padding: 0 5px;
+}
+
+.history .derivative-info table td.symbol {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.history .derivative-info table td .fl {
+    color: #00c5c5;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.history .derivative-info table td .ref {
+    color: #ffd900;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.history .derivative-info table td .cl {
+    color: #ff25ff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.history .derivative-info-table-wrp .tab {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.4rem;
+}
+
+.history .derivative-info-table-wrp .active {
+    color: #f7941d;
+    padding: 0 5px 5px;
+    font-weight: 700;
+}

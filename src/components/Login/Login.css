@@ -1,0 +1,144 @@
+.background-login {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(https://protrade-trial.vndirect.com.vn/static/media/pt_trial.a0934fd1.svg),
+        url(https://static-01.vndirect.com.vn/images/dpro/dpro_login_bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 14%, center bottom;
+    background-size: 350px, cover;
+}
+
+.form-login {
+    width: 350px;
+    height: 450px;
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    margin: -175px 0px 0px -175px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    z-index: 100;
+    padding: 40px;
+    box-shadow: rgb(0 0 0 / 14%) 0px 0px 4px, rgb(0 0 0 / 28%) 0px 4px 8px;
+    opacity: 0.93;
+    display: block;
+}
+
+#login-popup p {
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+#login-popup p.login-with-trade-acc {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 16px;
+}
+
+.abc {
+    margin: 0 auto;
+}
+
+#login-popup form[name="login"] label {
+    display: block;
+    width: 200px;
+    color: #444;
+    font-size: 14px;
+    margin: 5px auto 3px;
+}
+
+#login-popup form[name="login"] input[type="password"],
+#login-popup form[name="login"] input[type="text"] {
+    background: #dbe2f1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    width: 200px;
+    display: block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0 auto 10px;
+    outline: none;
+}
+
+#login-popup form[name="login"] input[type="password"]:focus,
+#login-popup form[name="login"] input[type="text"]:focus {
+    border: 1px solid #f7941d;
+    background: #fff;
+}
+
+#login-popup form[name="login"] input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#login-popup form[name="login"] button[type="submit"] {
+    background-color: #f7941d;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 9px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#login-popup form[name="login"] button[type="submit"]:focus,
+#login-popup form[name="login"] button[type="submit"]:hover {
+    background-color: #f89b2c;
+    box-shadow: 0 0 6px 0.5px #f8a036;
+    outline: none;
+}
+
+.login-divider {
+    border: 1px dotted #212529;
+}
+
+.register .register-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #18c451;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 9px;
+    width: 200px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.register .register-btn:focus,
+.register .register-btn:hover {
+    background-color: #1ad257;
+    box-shadow: 0 0 6px 0.5px #1bdb5a;
+    outline: none;
+}
+
+#login-popup div.error-msg {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login-popup p.login-helper:focus,
+#login-popup p.login-helper:hover {
+    color: #f7941d;
+    cursor: pointer;
+}

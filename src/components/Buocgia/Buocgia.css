@@ -1,0 +1,47 @@
+.history .derivative-info-table-wrp .derivative-info-table .derivative-info-row {
+    display: flex;
+    width: 100%;
+    line-height: 25px;
+}
+
+.history .derivative-info-table-wrp .derivative-info-table .derivative-info-row.head-row,
+.history .derivative-info-table-wrp .derivative-info-table > div.head-row {
+    background: hsla(0, 0%, 47.1%, 0.15);
+    line-height: 27px;
+}
+
+.derivative-cell {
+    text-align: center;
+    color: #ccc;
+    font-size: 1.2rem;
+    border-left: 1px solid #444;
+    padding: 0 5px;
+}
+
+.history .derivative-info-table-wrp .derivative-info-table .derivative-info-body-price {
+    height: 280px;
+    overflow-y: auto;
+    width: 100%;
+    display: block;
+}
+
+.history .derivative-info-table-wrp .derivative-info-table .derivative-info-body-price::-webkit-scrollbar {
+    display: none;
+}
+
+.history .derivative-info-table-wrp .derivative-info-table .derivative-info-row-step-price {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.derivative-cell-price {
+    text-align: center;
+    color: #ccc;
+    font-size: 1.2rem;
+    border-left: 1px solid #444;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 0 5px;
+}
