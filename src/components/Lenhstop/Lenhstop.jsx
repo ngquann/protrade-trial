@@ -30,20 +30,13 @@ const Lenhstop = () => {
           <a className="btn-price-match">≥</a>
         </div>
         <div className="trigger-price-wrapper">
-          <input
-            type="text"
-            placeholder="Giá kích hoạt"
-          />
+          <input type="text" placeholder="Giá kích hoạt" />
         </div>
       </div>
       <div className="rows">
         <label>Ngày hết hạn</label>
         <div className="react-datepicker__input-container">
-          <input
-            type="text"
-            placeholder="Ngày hết hạn"
-            value="03/10/2022"
-          />
+          <input type="text" placeholder="Ngày hết hạn" value="03/10/2022" />
         </div>
       </div>
       <div className="rows button">

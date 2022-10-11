@@ -15,9 +15,7 @@ const Solenh = ({ setShowCol, setType: setTypes }) => {
       <div className="title">
         <ul>
           <li onClick={() => setType("Lenhngay")}>
-            <a className={type === "Lenhngay" && "active"}>
-              Lệnh trong ngày
-            </a>
+            <a className={type === "Lenhngay" && "active"}>Lệnh trong ngày</a>
           </li>
           <li onClick={() => setType("LenhDk")}>
             <a className={type === "LenhDk" && "active"}>Lệnh điều kiện</a>

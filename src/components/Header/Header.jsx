@@ -16,8 +16,9 @@ const Header = ({ setSuccess }) => {
         ":" +
         new Date().getMinutes() +
         ":" +
-        new Date().getSeconds()
-    ,[])
+        new Date().getSeconds(),
+      []
+    )
   );
   const [date, setDate] = useState(
     useCallback(
@@ -26,8 +27,9 @@ const Header = ({ setSuccess }) => {
         "-" +
         (new Date().getMonth() + 1) +
         "-" +
-        new Date().getFullYear()
-    ,[])
+        new Date().getFullYear(),
+      []
+    )
   );
 
   useEffect(() => {

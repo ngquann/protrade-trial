@@ -80,10 +80,7 @@ const Login = ({ setSuccess }) => {
                   >
                     <FaInfoCircle />
                   </span>
-
-                  <ReactTooltip
-                    id="noteWarning"
-                  />
+                  <ReactTooltip id="noteWarning" />
                 </label>
               </div>
             </div>

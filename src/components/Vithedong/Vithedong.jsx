@@ -1,4 +1,3 @@
-
 const Vithedong = () => {
   return (
     <div>
@@ -8,12 +7,12 @@ const Vithedong = () => {
           <div style={{ width: "15%", textAlign: "center" }}>KL</div>
           <div style={{ width: "20%", textAlign: "center" }}>Giá mua</div>
           <div style={{ width: "20%", textAlign: "center" }}>Giá bán</div>
-          <div style={{ width: "25%", textAlign: "center" }}>Lãi/lỗ đã thực hiện</div>
+          <div style={{ width: "25%", textAlign: "center" }}>
+            Lãi/lỗ đã thực hiện
+          </div>
         </div>
         <div>
-          <span className="no-order">
-            Chưa có dữ liệu
-          </span>
+          <span className="no-order">Chưa có dữ liệu</span>
         </div>
       </div>
     </div>

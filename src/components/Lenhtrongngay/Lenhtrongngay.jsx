@@ -12,11 +12,12 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 
 const Lenhtrongngay = () => {
-  const [history, setHistory] = useState([]);
+  const [dataHistory, setDataHistory] = useState([]);
   const [deleteItem, setDeleteItem] = useState();
   const handle = (id) => {
     setDeleteItem(id);
   };
+
   let decodedUername = jwt_decode(localStorage.getItem("auth")).username;
 
   useEffect(() => {
@@ -24,7 +25,7 @@ const Lenhtrongngay = () => {
       .get(
         `https://dertrial-api.vndirect.com.vn/demotrade/orders?username=${decodedUername}`
       )
-      .then((res) => setHistory(res.data));
+      .then((res) => setDataHistory(res.data));
   }, []);
 
   const handleCancel = (id, index) => {
@@ -37,16 +38,15 @@ const Lenhtrongngay = () => {
       data: { userName: decodedUername, orderID: id },
     }).then((res) => {
       toast.success("Hủy lệnh thành công");
-      console.log(index, id)
+      console.log(index, id);
       if (res.status === 200) {
-        let itemData = history.filter(item => item.orderID === Number(id))
-        console.log(history);
-        itemData[0].status = "Cancelled"
-        setHistory([
-            ...history
-        ])
-        setDeleteItem(null)
-    }
+        let itemData = dataHistory.filter(
+          (item) => item.orderID === Number(id)
+        );
+        itemData[0].status = "Cancelled";
+        setDataHistory([...dataHistory]);
+        setDeleteItem(null);
+      }
     });
   };
 
@@ -63,8 +63,8 @@ const Lenhtrongngay = () => {
         </div>
         <div>
           <div className="command-list-titlee">
-            {history ? (
-              history.map((item, index) => (
+            {dataHistory ? (
+              dataHistory.map((item, index) => (
                 <div key={index} className="inday-content-item">
                   <div
                     style={{ width: "20px", marginLeft: "3px" }}
@@ -191,7 +191,7 @@ const Lenhtrongngay = () => {
                               cursor: "pointer",
                             }}
                             onClick={() => handle(item.orderID)}
-                          /> 
+                          />
                         )}
                       </div>
                     </div>
@@ -200,7 +200,7 @@ const Lenhtrongngay = () => {
                       <div className="delete">
                         <button
                           onClick={() => {
-                            handleCancel(item.orderID + "", index);
+                            handleCancel(item.orderID.toString(), index);
                           }}
                           // id={item.orderID}
                           className="btn-yes"

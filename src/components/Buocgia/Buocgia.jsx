@@ -8,13 +8,23 @@ const Buocgia = () => {
           <span style={{ width: "15%" }} className="derivative-cell">
             KL Mua
           </span>
-          <span style={{ width: "35%", borderLeft: 'none' }} className="derivative-cell">
+          <span
+            style={{ width: "35%", borderLeft: "none" }}
+            className="derivative-cell"
+          >
             Giá Mua
           </span>
           <span style={{ width: "35%" }} className="derivative-cell">
             Giá Bán
           </span>
-          <span style={{ width: "15%", borderLeft: 'none', borderRight: '1px solid #444' }} className="derivative-cell">
+          <span
+            style={{
+              width: "15%",
+              borderLeft: "none",
+              borderRight: "1px solid #444",
+            }}
+            className="derivative-cell"
+          >
             KL Bán
           </span>
         </div>
@@ -24,7 +34,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -32,17 +42,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -54,7 +60,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -62,17 +68,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -84,7 +86,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -92,17 +94,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -114,7 +112,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -122,17 +120,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -144,7 +138,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -152,17 +146,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -174,7 +164,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -182,17 +172,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -204,7 +190,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -212,17 +198,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -234,7 +216,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -242,17 +224,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -264,7 +242,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -272,17 +250,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -294,7 +268,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -302,17 +276,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -324,7 +294,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -332,17 +302,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -354,7 +320,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -362,17 +328,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -384,7 +346,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -392,17 +354,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -414,7 +372,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -422,17 +380,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -444,7 +398,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -452,17 +406,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
@@ -474,7 +424,7 @@ const Buocgia = () => {
             <div className="derivative-info-row-step-price body-row">
               <span
                 className="derivative-cell-price"
-                style={{ width: "15%", color: "#fff"}}
+                style={{ width: "15%", color: "#fff" }}
               >
                 5
               </span>
@@ -482,17 +432,13 @@ const Buocgia = () => {
                 className="derivative-cell-price"
                 style={{ width: "35%", borderLeft: "none", color: "red" }}
               >
-                <span>
-                  1122.4
-                </span>
+                <span>1122.4</span>
               </span>
               <span
                 className="derivative-cell-price"
-                style={{ width: "35%",  color: "red" }}
+                style={{ width: "35%", color: "red" }}
               >
-                <span>
-                  1122.5
-                </span>
+                <span>1122.5</span>
               </span>
               <span
                 className="derivative-cell-price"
